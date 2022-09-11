@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Votes</name>
+   <tag></tag>
+   <elementGuidId>05623d77-4ca2-4ad9-a1c2-ef50b030530a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Votes')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0fd6ff3d-4069-4935-a4f2-1b383e999cd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Votes</value>
+      <webElementGuid>239c0328-9679-453a-9edb-448182d5a4ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/my-app[1]/div[@class=&quot;container&quot;]/main[@class=&quot;row&quot;]/my-overall[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/table[@class=&quot;cars table table-hover&quot;]/thead[1]/tr[1]/th[5]/a[1]</value>
+      <webElementGuid>b69cb76c-b9ce-41f9-b73b-ca4f4bbd38ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Votes')]</value>
+      <webElementGuid>e8b409ae-d64b-4750-a1d2-0e5cf6761b3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rank'])[1]/following::a[1]</value>
+      <webElementGuid>d6800d66-b057-4274-9ebf-d70869d256df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Model'])[1]/following::a[2]</value>
+      <webElementGuid>2cc66028-4a22-44a0-9ce1-cb41d014004f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Engine'])[1]/preceding::a[1]</value>
+      <webElementGuid>3f0bbd40-4e57-403c-8c24-ada24fc0569d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/preceding::a[2]</value>
+      <webElementGuid>8083bfbd-ae69-46bb-838a-b8b881ab269c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Votes']/parent::*</value>
+      <webElementGuid>e58d0c44-d131-4b65-af39-391ee34d6c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[5]/a</value>
+      <webElementGuid>4c48be98-e103-499a-b4f4-c5a4ee1fee39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Votes' or . = 'Votes')]</value>
+      <webElementGuid>bcdb5123-e6be-443e-a435-ab93cea8e016</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

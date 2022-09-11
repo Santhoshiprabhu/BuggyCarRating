@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Author</name>
+   <tag></tag>
+   <elementGuidId>88aeb4a2-227c-47d5-8477-240e4f1dbe83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[(text() = 'Author' or . = 'Author')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>9b952aa8-c85a-49d3-98af-b1723b257e7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Author</value>
+      <webElementGuid>d233ff0d-6176-4ff1-a5d2-0132cc5860b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/my-app[1]/div[@class=&quot;container&quot;]/main[@class=&quot;row&quot;]/my-model[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/table[@class=&quot;table&quot;]/thead[@class=&quot;thead-inverse&quot;]/th[2]</value>
+      <webElementGuid>dedfad52-b567-48f4-a4aa-513d9f828097</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::th[1]</value>
+      <webElementGuid>89656781-99a9-4d2c-a0d0-480bc4b23726</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guilia Quadrifoglio'])[1]/following::th[2]</value>
+      <webElementGuid>6cb99371-557e-483f-9f16-d130b24ec7b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/preceding::th[1]</value>
+      <webElementGuid>73b24b49-ab52-45b5-80ba-e37e9307f1c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sep 11, 2022, 11:14:15 PM'])[1]/preceding::th[2]</value>
+      <webElementGuid>37ee8d8d-43c8-4a2a-af83-f0d479054193</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Author']/parent::*</value>
+      <webElementGuid>7e6d07e5-c443-40db-8596-a297b17de004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[2]</value>
+      <webElementGuid>da8b31d0-4010-42dc-9bff-833751d3fdc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Author' or . = 'Author')]</value>
+      <webElementGuid>cd504afd-51b1-4c03-b819-2258b295c09f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BuggyCarRating - TestSuite Report,Chrome 105.0.0.0,,,2022-09-11 23:54:10,2022-09-11 23:55:50,1m - 40.435s,PASSED
+,,,,,,,
+Test Cases/TC01_Login,Chrome 105.0.0.0,,,2022-09-11 23:54:10,2022-09-11 23:54:21,11.232s,PASSED
+"openBrowser(""https://buggy.justtestit.org/"")",Chrome 105.0.0.0,,,2022-09-11 23:54:11,2022-09-11 23:54:16,5.610s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-11 23:54:16,2022-09-11 23:54:17,0.210s,PASSED
+deleteAllCookies(),Chrome 105.0.0.0,,,2022-09-11 23:54:17,2022-09-11 23:54:17,0.093s,PASSED
+"setText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Login""), ""spsanthoshprabu@gmail.com"")",Chrome 105.0.0.0,,,2022-09-11 23:54:17,2022-09-11 23:54:18,1.142s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Password""), ""ru9bE3O26ILCNJ+iu/sjaQ=="")",Chrome 105.0.0.0,,,2022-09-11 23:54:18,2022-09-11 23:54:18,0.534s,PASSED
+"click(findTestObject(""Object Repository/BuggyCarRating/Login/button_Login""))",Chrome 105.0.0.0,,,2022-09-11 23:54:18,2022-09-11 23:54:19,0.473s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:54:19,2022-09-11 23:54:21,2.152s,PASSED
+"click(findTestObject(""Object Repository/BuggyCarRating/Login/a_Logout""))",Chrome 105.0.0.0,,,2022-09-11 23:54:21,2022-09-11 23:54:21,0.484s,PASSED
+,,,,,,,
+Test Cases/TC02_Profile,Chrome 105.0.0.0,,,2022-09-11 23:54:21,2022-09-11 23:54:49,27.654s,PASSED
+"openBrowser(""https://buggy.justtestit.org/"")",Chrome 105.0.0.0,,,2022-09-11 23:54:22,2022-09-11 23:54:26,3.719s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-11 23:54:26,2022-09-11 23:54:26,0.213s,PASSED
+deleteAllCookies(),Chrome 105.0.0.0,,,2022-09-11 23:54:26,2022-09-11 23:54:26,0.034s,PASSED
+"setText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Login""), ""spsanthoshprabu@gmail.com"")",Chrome 105.0.0.0,,,2022-09-11 23:54:26,2022-09-11 23:54:27,1.126s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Password""), ""ru9bE3O26ILCNJ+iu/sjaQ=="")",Chrome 105.0.0.0,,,2022-09-11 23:54:27,2022-09-11 23:54:27,0.430s,PASSED
+"click(findTestObject(""Object Repository/BuggyCarRating/Login/button_Login""))",Chrome 105.0.0.0,,,2022-09-11 23:54:27,2022-09-11 23:54:28,0.387s,PASSED
+waitForAlert(3),Chrome 105.0.0.0,,,2022-09-11 23:54:28,2022-09-11 23:54:31,3.078s,PASSED
+"click(findTestObject(""BuggyCarRating/Profile/a_Profile""))",Chrome 105.0.0.0,,,2022-09-11 23:54:31,2022-09-11 23:54:33,2.234s,PASSED
+waitForAlert(3),Chrome 105.0.0.0,,,2022-09-11 23:54:33,2022-09-11 23:54:36,3.072s,PASSED
+"setText(findTestObject(""BuggyCarRating/Profile/input_First Name_firstName""), ""SANTHOSH"")",Chrome 105.0.0.0,,,2022-09-11 23:54:36,2022-09-11 23:54:40,3.884s,PASSED
+"setText(findTestObject(""BuggyCarRating/Profile/input_Last Name_lastName""), ""IDAYAKUMAR PRABHU"")",Chrome 105.0.0.0,,,2022-09-11 23:54:40,2022-09-11 23:54:44,4.081s,PASSED
+waitForAlert(3),Chrome 105.0.0.0,,,2022-09-11 23:54:44,2022-09-11 23:54:47,3.067s,PASSED
+"click(findTestObject(""BuggyCarRating/Profile/button_Save""))",Chrome 105.0.0.0,,,2022-09-11 23:54:47,2022-09-11 23:54:49,1.864s,PASSED
+,,,,,,,
+Test Cases/TC03_PopularMake,Chrome 105.0.0.0,,,2022-09-11 23:54:49,2022-09-11 23:55:08,19.246s,PASSED
+"openBrowser(""https://buggy.justtestit.org/"")",Chrome 105.0.0.0,,,2022-09-11 23:54:50,2022-09-11 23:54:53,3.871s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-11 23:54:53,2022-09-11 23:54:54,0.165s,PASSED
+deleteAllCookies(),Chrome 105.0.0.0,,,2022-09-11 23:54:54,2022-09-11 23:54:54,0.027s,PASSED
+"setText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Login""), ""spsanthoshprabu@gmail.com"")",Chrome 105.0.0.0,,,2022-09-11 23:54:54,2022-09-11 23:54:55,0.969s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Password""), ""ru9bE3O26ILCNJ+iu/sjaQ=="")",Chrome 105.0.0.0,,,2022-09-11 23:54:55,2022-09-11 23:54:55,0.473s,PASSED
+"click(findTestObject(""Object Repository/BuggyCarRating/Login/button_Login""))",Chrome 105.0.0.0,,,2022-09-11 23:54:55,2022-09-11 23:54:55,0.378s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:54:55,2022-09-11 23:54:57,2.040s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/img_Alpha Romeo""))",Chrome 105.0.0.0,,,2022-09-11 23:54:57,2022-09-11 23:54:58,0.402s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:54:58,2022-09-11 23:55:00,2.082s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/img_Alpha Romeo""))",Chrome 105.0.0.0,,,2022-09-11 23:55:00,2022-09-11 23:55:00,0.505s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/a_Model""))",Chrome 105.0.0.0,,,2022-09-11 23:55:00,2022-09-11 23:55:01,0.358s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/a_Rank""))",Chrome 105.0.0.0,,,2022-09-11 23:55:01,2022-09-11 23:55:01,0.373s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/a_Votes""))",Chrome 105.0.0.0,,,2022-09-11 23:55:01,2022-09-11 23:55:02,0.393s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:55:02,2022-09-11 23:55:04,2.031s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/a_View more""))",Chrome 105.0.0.0,,,2022-09-11 23:55:04,2022-09-11 23:55:04,0.459s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:55:04,2022-09-11 23:55:06,2.048s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/img_Alfa Romeo_fluid""))",Chrome 105.0.0.0,,,2022-09-11 23:55:06,2022-09-11 23:55:08,2.186s,PASSED
+,,,,,,,
+Test Cases/TC04_PopularModel,Chrome 105.0.0.0,,,2022-09-11 23:55:08,2022-09-11 23:55:24,15.693s,PASSED
+"openBrowser(""https://buggy.justtestit.org/"")",Chrome 105.0.0.0,,,2022-09-11 23:55:09,2022-09-11 23:55:12,3.428s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-11 23:55:12,2022-09-11 23:55:12,0.204s,PASSED
+deleteAllCookies(),Chrome 105.0.0.0,,,2022-09-11 23:55:12,2022-09-11 23:55:12,0.096s,PASSED
+"setText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Login""), ""spsanthoshprabu@gmail.com"")",Chrome 105.0.0.0,,,2022-09-11 23:55:12,2022-09-11 23:55:13,0.786s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Password""), ""ru9bE3O26ILCNJ+iu/sjaQ=="")",Chrome 105.0.0.0,,,2022-09-11 23:55:13,2022-09-11 23:55:14,0.485s,PASSED
+"click(findTestObject(""Object Repository/BuggyCarRating/Login/button_Login""))",Chrome 105.0.0.0,,,2022-09-11 23:55:14,2022-09-11 23:55:14,0.372s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:55:14,2022-09-11 23:55:16,2.041s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/img_Popular Model""))",Chrome 105.0.0.0,,,2022-09-11 23:55:16,2022-09-11 23:55:17,0.409s,PASSED
+waitForAlert(3),Chrome 105.0.0.0,,,2022-09-11 23:55:17,2022-09-11 23:55:20,3.627s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/div_Specification""))",Chrome 105.0.0.0,,,2022-09-11 23:55:20,2022-09-11 23:55:21,0.418s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/div_Votes""))",Chrome 105.0.0.0,,,2022-09-11 23:55:21,2022-09-11 23:55:21,0.361s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:55:21,2022-09-11 23:55:23,2.040s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/div_Date""))",Chrome 105.0.0.0,,,2022-09-11 23:55:23,2022-09-11 23:55:23,0.330s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/div_Author""))",Chrome 105.0.0.0,,,2022-09-11 23:55:23,2022-09-11 23:55:24,0.338s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/div_Comment""))",Chrome 105.0.0.0,,,2022-09-11 23:55:24,2022-09-11 23:55:24,0.345s,PASSED
+,,,,,,,
+Test Cases/TC05_OverallRating,Chrome 105.0.0.0,,,2022-09-11 23:55:24,2022-09-11 23:55:50,26.007s,PASSED
+"openBrowser(""https://buggy.justtestit.org/"")",Chrome 105.0.0.0,,,2022-09-11 23:55:24,2022-09-11 23:55:28,3.557s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-11 23:55:28,2022-09-11 23:55:28,0.261s,PASSED
+deleteAllCookies(),Chrome 105.0.0.0,,,2022-09-11 23:55:28,2022-09-11 23:55:28,0.056s,PASSED
+"setText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Login""), ""spsanthoshprabu@gmail.com"")",Chrome 105.0.0.0,,,2022-09-11 23:55:28,2022-09-11 23:55:29,0.816s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuggyCarRating/Login/input_Password""), ""ru9bE3O26ILCNJ+iu/sjaQ=="")",Chrome 105.0.0.0,,,2022-09-11 23:55:29,2022-09-11 23:55:29,0.398s,PASSED
+"click(findTestObject(""Object Repository/BuggyCarRating/Login/button_Login""))",Chrome 105.0.0.0,,,2022-09-11 23:55:29,2022-09-11 23:55:30,0.384s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:55:30,2022-09-11 23:55:32,2.043s,PASSED
+"click(findTestObject(""BuggyCarRating/Overall Rating/img_Overall Rating""))",Chrome 105.0.0.0,,,2022-09-11 23:55:32,2022-09-11 23:55:32,0.398s,PASSED
+waitForAlert(3),Chrome 105.0.0.0,,,2022-09-11 23:55:32,2022-09-11 23:55:35,3.065s,PASSED
+"click(findTestObject(""BuggyCarRating/Overall Rating/a_Make""))",Chrome 105.0.0.0,,,2022-09-11 23:55:35,2022-09-11 23:55:36,0.364s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/a_Model""))",Chrome 105.0.0.0,,,2022-09-11 23:55:36,2022-09-11 23:55:38,2.583s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/a_Rank""))",Chrome 105.0.0.0,,,2022-09-11 23:55:38,2022-09-11 23:55:40,1.708s,PASSED
+"click(findTestObject(""BuggyCarRating/Overall Rating/a_Votes""))",Chrome 105.0.0.0,,,2022-09-11 23:55:40,2022-09-11 23:55:42,1.683s,PASSED
+"click(findTestObject(""BuggyCarRating/Overall Rating/a_Engine""))",Chrome 105.0.0.0,,,2022-09-11 23:55:42,2022-09-11 23:55:44,2.826s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:55:44,2022-09-11 23:55:47,2.032s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularMake/a_View more""))",Chrome 105.0.0.0,,,2022-09-11 23:55:47,2022-09-11 23:55:47,0.430s,PASSED
+waitForAlert(2),Chrome 105.0.0.0,,,2022-09-11 23:55:47,2022-09-11 23:55:49,2.057s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/div_Date""))",Chrome 105.0.0.0,,,2022-09-11 23:55:49,2022-09-11 23:55:49,0.399s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/div_Author""))",Chrome 105.0.0.0,,,2022-09-11 23:55:49,2022-09-11 23:55:50,0.350s,PASSED
+"click(findTestObject(""BuggyCarRating/PopularModel/div_Comment""))",Chrome 105.0.0.0,,,2022-09-11 23:55:50,2022-09-11 23:55:50,0.311s,PASSED

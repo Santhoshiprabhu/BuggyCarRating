@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuggyCarRating - TestSuite Report" time="100.435" tests="5" failures="0" errors="0">
+   <testsuite name="BuggyCarRating - TestSuite Report" tests="5" failures="0" errors="0" time="100.435" skipped="0" timestamp="2022-09-11 23:54:10" hostname="santhoshprabhu - localhost" id="Test Suites/BuggyCarRating - TestSuite Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/santhoshprabhu/git/BuggyCarRating/Reports/20220911_235406/BuggyCarRating - TestSuite Report/20220911_235406"/>
+         <property name="logFiles" value="/Users/santhoshprabhu/git/BuggyCarRating/Reports/20220911_235406/BuggyCarRating - TestSuite Report/20220911_235406/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="santhoshprabhu - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="361ea0fc9c9bdf734b2bd1f1517aea34"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC01_Login" time="11.232" classname="Test Cases/TC01_Login" status="PASSED">
+         <system-out><![CDATA[2022-09-11 23:54:10 - [TEST_CASE][PASSED] - Test Cases/TC01_Login: Test Cases/TC01_Login
+
+2022-09-11 23:54:11 - [TEST_STEP][PASSED] - openBrowser("https://buggy.justtestit.org/"): Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:54:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-11 23:54:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-11 23:54:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:54:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-11 23:54:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-11 23:54:17 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-09-11 23:54:17 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-09-11 23:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BuggyCarRating/Login/input_Login"), "spsanthoshprabu@gmail.com"): Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:54:18 - [MESSAGE][PASSED] - Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:54:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/BuggyCarRating/Login/input_Password"), "ru9bE3O26ILCNJ+iu/sjaQ=="): Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:54:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:54:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BuggyCarRating/Login/button_Login")): Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:54:19 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:54:21 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BuggyCarRating/Login/a_Logout")): Object: 'Object Repository/BuggyCarRating/Login/a_Logout' is clicked on
+
+2022-09-11 23:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Login/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Profile" time="27.654" classname="Test Cases/TC02_Profile" status="PASSED">
+         <system-out><![CDATA[2022-09-11 23:54:21 - [TEST_CASE][PASSED] - Test Cases/TC02_Profile: Test Cases/TC02_Profile
+
+2022-09-11 23:54:22 - [TEST_STEP][PASSED] - openBrowser("https://buggy.justtestit.org/"): Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:54:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-11 23:54:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-11 23:54:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-11 23:54:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:54:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-11 23:54:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-11 23:54:26 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-09-11 23:54:26 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-09-11 23:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BuggyCarRating/Login/input_Login"), "spsanthoshprabu@gmail.com"): Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:54:27 - [MESSAGE][PASSED] - Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:54:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/BuggyCarRating/Login/input_Password"), "ru9bE3O26ILCNJ+iu/sjaQ=="): Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:54:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:54:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BuggyCarRating/Login/button_Login")): Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:54:28 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2022-09-11 23:54:31 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2022-09-11 23:54:31 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/Profile/a_Profile")): Object: 'Object Repository/BuggyCarRating/Profile/a_Profile' is clicked on
+
+2022-09-11 23:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Profile/a_Profile' is clicked on
+
+2022-09-11 23:54:33 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2022-09-11 23:54:36 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2022-09-11 23:54:36 - [TEST_STEP][PASSED] - setText(findTestObject("BuggyCarRating/Profile/input_First Name_firstName"), "SANTHOSH"): Text 'SANTHOSH' is set on object 'Object Repository/BuggyCarRating/Profile/input_First Name_firstName'
+
+2022-09-11 23:54:40 - [MESSAGE][PASSED] - Text 'SANTHOSH' is set on object 'Object Repository/BuggyCarRating/Profile/input_First Name_firstName'
+
+2022-09-11 23:54:40 - [TEST_STEP][PASSED] - setText(findTestObject("BuggyCarRating/Profile/input_Last Name_lastName"), "IDAYAKUMAR PRABHU"): Text 'IDAYAKUMAR PRABHU' is set on object 'Object Repository/BuggyCarRating/Profile/input_Last Name_lastName'
+
+2022-09-11 23:54:44 - [MESSAGE][PASSED] - Text 'IDAYAKUMAR PRABHU' is set on object 'Object Repository/BuggyCarRating/Profile/input_Last Name_lastName'
+
+2022-09-11 23:54:44 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2022-09-11 23:54:47 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2022-09-11 23:54:47 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/Profile/button_Save")): Object: 'Object Repository/BuggyCarRating/Profile/button_Save' is clicked on
+
+2022-09-11 23:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Profile/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03_PopularMake" time="19.246" classname="Test Cases/TC03_PopularMake" status="PASSED">
+         <system-out><![CDATA[2022-09-11 23:54:49 - [TEST_CASE][PASSED] - Test Cases/TC03_PopularMake: Test Cases/TC03_PopularMake
+
+2022-09-11 23:54:50 - [TEST_STEP][PASSED] - openBrowser("https://buggy.justtestit.org/"): Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:54:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-11 23:54:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-11 23:54:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-11 23:54:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:54:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-11 23:54:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-11 23:54:54 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-09-11 23:54:54 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-09-11 23:54:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BuggyCarRating/Login/input_Login"), "spsanthoshprabu@gmail.com"): Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:54:55 - [MESSAGE][PASSED] - Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:54:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/BuggyCarRating/Login/input_Password"), "ru9bE3O26ILCNJ+iu/sjaQ=="): Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:54:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BuggyCarRating/Login/button_Login")): Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:54:55 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:54:57 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:54:57 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/img_Alpha Romeo")): Object: 'Object Repository/BuggyCarRating/PopularMake/img_Alpha Romeo' is clicked on
+
+2022-09-11 23:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/img_Alpha Romeo' is clicked on
+
+2022-09-11 23:54:58 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:00 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:00 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/img_Alpha Romeo")): Object: 'Object Repository/BuggyCarRating/PopularMake/img_Alpha Romeo' is clicked on
+
+2022-09-11 23:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/img_Alpha Romeo' is clicked on
+
+2022-09-11 23:55:00 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/a_Model")): Object: 'Object Repository/BuggyCarRating/PopularMake/a_Model' is clicked on
+
+2022-09-11 23:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/a_Model' is clicked on
+
+2022-09-11 23:55:01 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/a_Rank")): Object: 'Object Repository/BuggyCarRating/PopularMake/a_Rank' is clicked on
+
+2022-09-11 23:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/a_Rank' is clicked on
+
+2022-09-11 23:55:01 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/a_Votes")): Object: 'Object Repository/BuggyCarRating/PopularMake/a_Votes' is clicked on
+
+2022-09-11 23:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/a_Votes' is clicked on
+
+2022-09-11 23:55:02 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:04 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:04 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/a_View more")): Object: 'Object Repository/BuggyCarRating/PopularMake/a_View more' is clicked on
+
+2022-09-11 23:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/a_View more' is clicked on
+
+2022-09-11 23:55:04 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:06 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:06 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/img_Alfa Romeo_fluid")): Object: 'Object Repository/BuggyCarRating/PopularMake/img_Alfa Romeo_fluid' is clicked on
+
+2022-09-11 23:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/img_Alfa Romeo_fluid' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_PopularModel" time="15.693" classname="Test Cases/TC04_PopularModel" status="PASSED">
+         <system-out><![CDATA[2022-09-11 23:55:08 - [TEST_CASE][PASSED] - Test Cases/TC04_PopularModel: Test Cases/TC04_PopularModel
+
+2022-09-11 23:55:09 - [TEST_STEP][PASSED] - openBrowser("https://buggy.justtestit.org/"): Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:55:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-11 23:55:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-11 23:55:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-11 23:55:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:55:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-11 23:55:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-11 23:55:12 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-09-11 23:55:12 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-09-11 23:55:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BuggyCarRating/Login/input_Login"), "spsanthoshprabu@gmail.com"): Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:55:13 - [MESSAGE][PASSED] - Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:55:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/BuggyCarRating/Login/input_Password"), "ru9bE3O26ILCNJ+iu/sjaQ=="): Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:55:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BuggyCarRating/Login/button_Login")): Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:55:14 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:16 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:16 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/img_Popular Model")): Object: 'Object Repository/BuggyCarRating/PopularModel/img_Popular Model' is clicked on
+
+2022-09-11 23:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/img_Popular Model' is clicked on
+
+2022-09-11 23:55:17 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2022-09-11 23:55:20 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2022-09-11 23:55:20 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/div_Specification")): Object: 'Object Repository/BuggyCarRating/PopularModel/div_Specification' is clicked on
+
+2022-09-11 23:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/div_Specification' is clicked on
+
+2022-09-11 23:55:21 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/div_Votes")): Object: 'Object Repository/BuggyCarRating/PopularMake/div_Votes' is clicked on
+
+2022-09-11 23:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/div_Votes' is clicked on
+
+2022-09-11 23:55:21 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:23 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:23 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/div_Date")): Object: 'Object Repository/BuggyCarRating/PopularModel/div_Date' is clicked on
+
+2022-09-11 23:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/div_Date' is clicked on
+
+2022-09-11 23:55:23 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/div_Author")): Object: 'Object Repository/BuggyCarRating/PopularModel/div_Author' is clicked on
+
+2022-09-11 23:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/div_Author' is clicked on
+
+2022-09-11 23:55:24 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/div_Comment")): Object: 'Object Repository/BuggyCarRating/PopularModel/div_Comment' is clicked on
+
+2022-09-11 23:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/div_Comment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05_OverallRating" time="26.007" classname="Test Cases/TC05_OverallRating" status="PASSED">
+         <system-out><![CDATA[2022-09-11 23:55:24 - [TEST_CASE][PASSED] - Test Cases/TC05_OverallRating: Test Cases/TC05_OverallRating
+
+2022-09-11 23:55:24 - [TEST_STEP][PASSED] - openBrowser("https://buggy.justtestit.org/"): Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:55:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-11 23:55:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-11 23:55:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-11 23:55:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://buggy.justtestit.org/'
+
+2022-09-11 23:55:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-11 23:55:28 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-11 23:55:28 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-09-11 23:55:28 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-09-11 23:55:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BuggyCarRating/Login/input_Login"), "spsanthoshprabu@gmail.com"): Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:55:29 - [MESSAGE][PASSED] - Text 'spsanthoshprabu@gmail.com' is set on object 'Object Repository/BuggyCarRating/Login/input_Login'
+
+2022-09-11 23:55:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/BuggyCarRating/Login/input_Password"), "ru9bE3O26ILCNJ+iu/sjaQ=="): Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:55:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BuggyCarRating/Login/input_Password'
+
+2022-09-11 23:55:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BuggyCarRating/Login/button_Login")): Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Login/button_Login' is clicked on
+
+2022-09-11 23:55:30 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:32 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:32 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/Overall Rating/img_Overall Rating")): Object: 'Object Repository/BuggyCarRating/Overall Rating/img_Overall Rating' is clicked on
+
+2022-09-11 23:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Overall Rating/img_Overall Rating' is clicked on
+
+2022-09-11 23:55:32 - [TEST_STEP][PASSED] - waitForAlert(3): No alert found after 3 second(s).
+
+2022-09-11 23:55:35 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+2022-09-11 23:55:35 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/Overall Rating/a_Make")): Object: 'Object Repository/BuggyCarRating/Overall Rating/a_Make' is clicked on
+
+2022-09-11 23:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Overall Rating/a_Make' is clicked on
+
+2022-09-11 23:55:36 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/a_Model")): Object: 'Object Repository/BuggyCarRating/PopularMake/a_Model' is clicked on
+
+2022-09-11 23:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/a_Model' is clicked on
+
+2022-09-11 23:55:38 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/a_Rank")): Object: 'Object Repository/BuggyCarRating/PopularMake/a_Rank' is clicked on
+
+2022-09-11 23:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/a_Rank' is clicked on
+
+2022-09-11 23:55:40 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/Overall Rating/a_Votes")): Object: 'Object Repository/BuggyCarRating/Overall Rating/a_Votes' is clicked on
+
+2022-09-11 23:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Overall Rating/a_Votes' is clicked on
+
+2022-09-11 23:55:42 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/Overall Rating/a_Engine")): Object: 'Object Repository/BuggyCarRating/Overall Rating/a_Engine' is clicked on
+
+2022-09-11 23:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/Overall Rating/a_Engine' is clicked on
+
+2022-09-11 23:55:44 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:47 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:47 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularMake/a_View more")): Object: 'Object Repository/BuggyCarRating/PopularMake/a_View more' is clicked on
+
+2022-09-11 23:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularMake/a_View more' is clicked on
+
+2022-09-11 23:55:47 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2022-09-11 23:55:49 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2022-09-11 23:55:49 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/div_Date")): Object: 'Object Repository/BuggyCarRating/PopularModel/div_Date' is clicked on
+
+2022-09-11 23:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/div_Date' is clicked on
+
+2022-09-11 23:55:49 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/div_Author")): Object: 'Object Repository/BuggyCarRating/PopularModel/div_Author' is clicked on
+
+2022-09-11 23:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/div_Author' is clicked on
+
+2022-09-11 23:55:50 - [TEST_STEP][PASSED] - click(findTestObject("BuggyCarRating/PopularModel/div_Comment")): Object: 'Object Repository/BuggyCarRating/PopularModel/div_Comment' is clicked on
+
+2022-09-11 23:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/BuggyCarRating/PopularModel/div_Comment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-11 23:54:10 - [TEST_SUITE][PASSED] - BuggyCarRating - TestSuite Report: Test Cases/TC05_OverallRating]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
