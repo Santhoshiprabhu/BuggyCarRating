@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Model</name>
+   <tag></tag>
+   <elementGuidId>486abe14-4a19-4df3-8015-827c45eb1d20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Model')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d9a13ace-6779-41a9-b6e4-4009d25ef248</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Model</value>
+      <webElementGuid>47836f7c-b0c1-4b48-8ec5-f718586079e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/my-app[1]/div[@class=&quot;container&quot;]/main[@class=&quot;row&quot;]/my-make[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[1]/div[@class=&quot;row&quot;]/table[@class=&quot;cars table table-hover&quot;]/thead[1]/tr[1]/th[2]/a[1]</value>
+      <webElementGuid>0ba4e8dc-cedc-454e-a0ac-6b91a84d98d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Model')]</value>
+      <webElementGuid>64697e7b-9b12-4560-bc5f-20d12b7652f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alfa Romeo'])[2]/following::a[1]</value>
+      <webElementGuid>c0b56196-c0b7-4e2e-8309-0f771102cbe9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alfa Romeo'])[1]/following::a[2]</value>
+      <webElementGuid>917f3978-890e-4292-be0d-6043f67f32e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rank'])[1]/preceding::a[1]</value>
+      <webElementGuid>f29e93f5-6456-4489-8f92-8a868d2e5f9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Votes'])[1]/preceding::a[2]</value>
+      <webElementGuid>67394cc2-f81e-4914-9ee8-14ba5ba507b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Model']/parent::*</value>
+      <webElementGuid>a33d391e-b46f-48c9-8ab2-10aa24218c5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[2]/a</value>
+      <webElementGuid>c4cd9035-f8c6-40af-aafa-9127b685d12b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Model' or . = 'Model')]</value>
+      <webElementGuid>8e7cf6c4-e244-457f-9885-82d6fb3ccd68</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
